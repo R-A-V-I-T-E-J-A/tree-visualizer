@@ -1,0 +1,112 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+*{
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.inputs{
+  text-align: center;
+}
+
+input {
+  font-size: 1.1em;
+}
+
+label  {
+  font-size: 1.1em;
+}
+
+#title {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,98,121,0.5607376739758403) 38%, rgba(0,212,255,1) 100%); 
+  font-size: 1.8em;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+
+#blurb {
+  background-color: rgba(0, 255, 255, 0.386);
+  text-align: center;
+  margin: 1em auto 1em auto;
+  width: 500px;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+#visual-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: .5em;
+}
+
+#array-visual {
+  margin: 1em;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  width: 100%;
+  padding: 1em;
+  color:black;
+}
+.bb{
+  margin: 8px;
+  color:black;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+}
+
+.options{
+  text-align: center;
+}
+
+
+.xxxx{
+  text-align: center;
+}
+
+
+
+rect:hover, circle:hover, text.circle:hover, text.rect:hover {
+  cursor: pointer;
+}
+
+.subtext {
+  font-size: .8em;
+  font-weight: 400;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
